@@ -1,0 +1,6 @@
+{
+	"privacy_terms": "http://yetu.me/",
+	"terms_and_conditions": "http://yetu.me/",
+	"imprint": "http://yetu.com/imprint/",
+	"images_wrapper": "@controllers.routes.Assets.versioned(\"$1\")"
+}

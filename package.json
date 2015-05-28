@@ -1,0 +1,12 @@
+{
+  "name": "yetu-emails",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-inline-css": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-prompt": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-string-replace": "*"
+  }
+}

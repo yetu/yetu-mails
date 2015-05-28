@@ -1,0 +1,97 @@
+/***********************
+* yetu email template  *
+************************/
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700);
+
+body, table.body, h1, h2, h3, h4, h5, h6, p, td {
+  color: #666666;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: normal;
+}
+
+table.button td a,
+table.tiny-button td a,
+table.small-button td a,
+table.medium-button td a,
+table.large-button td a {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+a {
+  color: #009900;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #05a505 !important;
+}
+
+a:active {
+  color: #05a505 !important;
+}
+
+a:visited {
+  color: #009900 !important;
+}
+
+table.row tr.colored {
+  background-color: #dadada;
+}
+
+h6.header-title {
+  margin-top: 16px;
+}
+
+table tr td.line-division .line {
+  width: 100%;
+  display: block;
+  height: 1px;
+  min-height: 1px;
+  max-height: 1px;
+}
+
+table tr td.line-division .first-line {
+  background-color: #e8e8e8;
+}
+table tr td.line-division .second-line {
+  background-color: #c0c0c0;
+}
+table tr td.line-division .thrid-line {
+  background-color: #d0d0d0;
+}
+
+table.container {
+  width: 480px;
+}
+
+table.yetu td {
+  background: #059939;
+  border-color: #48ad6c;
+}
+table.yetu td a {
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 17px;
+}
+
+table.button:hover td,
+table.button:visited td,
+table.button:active td {
+  background: #48ad6c !important;
+}
+
+table.extra-margin {
+  margin: 0 0 16px 0;
+}
+table.extra-margin-bottom {
+  margin: 0 0 10px 0;
+}
+
+span.medium-text {
+  font-size: 15px;
+}
