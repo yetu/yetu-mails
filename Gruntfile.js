@@ -59,6 +59,15 @@ module.exports = function(grunt) {
         }
       }
     },
+    htmlentities: {
+      options: {
+        allowUnsafeSymbols: true
+      },
+      files: {
+        src: 'build/index.html',
+        dest: 'build/'
+      }
+    },
     copy: {
       main: {
         files: [
@@ -74,7 +83,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-prompt');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-string-replace');
+  grunt.loadNpmTasks('grunt-htmlentities');
 
-  grunt.registerTask('default', ['clean', 'prompt', 'inlinecss', 'string-replace', 'copy']);
+  grunt.registerTask('default', ['clean', 'prompt', 'inlinecss', 'string-replace', 'htmlentities', 'copy']);
 
 };
